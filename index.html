@@ -8,27 +8,33 @@
     <title>Xuan Ji | Data Science & AI</title>
 
     <meta name="description"
-          content="Xuan Ji — Data Science, Machine Learning, NLP, Conversational AI, and Healthcare AI.">
+        content="Xuan Ji — Data Science, Machine Learning, NLP, Conversational AI, and Healthcare AI.">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav>
-        <a href="#" class="logo">XJ</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
 
-        <div class="nav-links">
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-            <a href="#contact">Contact</a>
+            <a href="#top" class="logo">XJ</a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+
         </div>
     </nav>
 
 
     <!-- HERO -->
-
-    <header class="hero">
+    <header class="hero" id="top">
 
         <div class="hero-text">
 
@@ -43,30 +49,33 @@
                 <span>AI, language, and healthcare.</span>
             </h2>
 
-            <p class="intro">
-                MSc Data Science student at the University of Zurich,
+            <p class="hero-description">
+                I am an MSc Data Science student at the University of Zurich
                 interested in Machine Learning, Artificial Intelligence,
                 Natural Language Processing, and human-centered AI systems.
             </p>
 
-            <div class="buttons">
-                <a href="#projects" class="button primary">
-                    View projects
+            <div class="hero-buttons">
+
+                <a href="#projects" class="button primary-button">
+                    View my work
                 </a>
 
-                <a href="mailto:xuan.ji1128@gmail.com" class="button">
-                    Contact me
+                <a href="mailto:xuan.ji1128@gmail.com"
+                    class="button secondary-button">
+                    Get in touch
                 </a>
+
             </div>
 
         </div>
 
 
-        <div class="photo-container">
+        <div class="profile-container">
 
             <img src="profile.jpg"
-                 alt="Portrait of Xuan Ji"
-                 class="profile-photo">
+                alt="Portrait of Xuan Ji"
+                class="profile-photo">
 
         </div>
 
@@ -76,29 +85,94 @@
     <main>
 
 
-        <!-- ABOUT -->
+        <!-- ABOUT + SKILLS -->
+        <section id="about" class="section">
 
-        <section class="about">
-
-            <div class="section-title">
+            <div class="section-label">
                 <span>01</span>
-                About
+                <span>ABOUT</span>
             </div>
 
-            <div class="about-content">
 
-                <p>
-                    My work focuses on applying machine learning and
-                    generative AI to real-world problems, particularly
-                    in healthcare and education.
-                </p>
+            <div class="about-grid">
 
-                <p>
-                    I am especially interested in conversational AI,
-                    large language models, natural language processing,
-                    computer vision, and adaptive systems designed
-                    around individual users.
-                </p>
+                <div class="about-intro">
+
+                    <h2>
+                        Building AI systems that are
+                        <em>useful, adaptive, and human-centered.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <p>
+                        My work focuses on applying machine learning and
+                        generative AI to real-world problems, particularly
+                        in healthcare and education.
+                    </p>
+
+                    <p>
+                        I am especially interested in conversational AI,
+                        large language models, natural language processing,
+                        computer vision, and the design of systems that adapt
+                        to individual users.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="skills-strip">
+
+                <div class="skill-group">
+
+                    <h3>AI & Machine Learning</h3>
+
+                    <p>
+                        Large Language Models · LLM-based Agent Design ·
+                        Prompt Engineering · NLP · Computer Vision ·
+                        Object Detection · Image Processing
+                    </p>
+
+                </div>
+
+
+                <div class="skill-group">
+
+                    <h3>Programming & Data</h3>
+
+                    <p>
+                        Python · R · SQL · PostgreSQL / MySQL · HTML / CSS
+                    </p>
+
+                </div>
+
+
+                <div class="skill-group">
+
+                    <h3>Tools & Platforms</h3>
+
+                    <p>
+                        Jupyter · Git / GitHub · Jaspersoft Studio ·
+                        Microsoft Office
+                    </p>
+
+                </div>
+
+
+                <div class="skill-group">
+
+                    <h3>Languages</h3>
+
+                    <p>
+                        Chinese — Native · English — IELTS 8.0 · German — B1
+                    </p>
+
+                </div>
 
             </div>
 
@@ -106,139 +180,217 @@
 
 
         <!-- PROJECTS -->
+        <section id="projects" class="section">
 
-        <section id="projects">
-
-            <div class="section-title">
+            <div class="section-label">
                 <span>02</span>
-                Selected Projects
+                <span>SELECTED PROJECTS</span>
             </div>
 
 
-            <div class="projects">
+            <div class="project-grid">
 
 
-                <article class="project">
+                <!-- Project 1 -->
+                <article class="project-card featured-project">
 
-                    <div class="project-meta">
-                        2025–2026
+                    <div class="project-top">
+
+                        <span class="project-number">01</span>
+
+                        <span class="project-date">
+                            MASTER'S THESIS · 2025–2026
+                        </span>
+
                     </div>
 
-                    <div>
 
-                        <h3>
-                            Adaptive Conversational Support for
-                            Long-Term Robot-Assisted Rehabilitation
-                        </h3>
+                    <h3>
+                        Adaptive Conversational Support for
+                        Long-Term Robot-Assisted Rehabilitation
+                    </h3>
 
-                        <p class="organization">
-                            Master's Thesis · ETH Zurich
-                        </p>
+                    <p class="project-organization">
+                        ETH Zurich · Rehabilitation Engineering Laboratory
+                    </p>
 
-                        <p>
+                    <p>
+                        Developed adaptive conversational agents that
+                        leverage user behavior data to personalize
+                        motivational support for long-term rehabilitation.
+                    </p>
+
+                    <ul>
+
+                        <li>
                             Developed adaptive conversational agents
-                            leveraging user behavior data to personalize
-                            motivational support for long-term rehabilitation.
-                            Designed an automated adherence assessment pipeline
-                            and evaluated motivational interviewing-based
-                            dialogue strategies.
-                        </p>
+                            using user behavior data.
+                        </li>
 
-                        <div class="tags">
-                            <span>LLMs</span>
-                            <span>Conversational AI</span>
-                            <span>Healthcare</span>
-                        </div>
+                        <li>
+                            Designed an automated pipeline to assess
+                            patient adherence and engagement.
+                        </li>
 
-                    </div>
+                        <li>
+                            Evaluated motivational interviewing-based
+                            dialogue strategies in a simulated study.
+                        </li>
 
-                </article>
+                    </ul>
 
+                    <div class="project-tags">
 
-                <article class="project">
-
-                    <div class="project-meta">
-                        2024–2025
-                    </div>
-
-                    <div>
-
-                        <h3>
-                            Automatic Analysis of Marginal Bone Level
-                            Around Dental Implants
-                        </h3>
-
-                        <p class="organization">
-                            University of Zurich · Center of Dental Medicine
-                        </p>
-
-                        <p>
-                            Built an end-to-end YOLO-based computer vision
-                            pipeline for medical image analysis and automated
-                            marginal bone loss measurement.
-                        </p>
-
-                        <div class="tags">
-                            <span>Computer Vision</span>
-                            <span>YOLO</span>
-                            <span>Medical Imaging</span>
-                        </div>
+                        <span>LLMs</span>
+                        <span>Conversational AI</span>
+                        <span>Motivational Interviewing</span>
+                        <span>Healthcare</span>
 
                     </div>
 
                 </article>
 
 
-                <article class="project">
+                <!-- Project 2 -->
+                <article class="project-card">
 
-                    <div class="project-meta">
-                        2024–2025
+                    <div class="project-top">
+
+                        <span class="project-number">02</span>
+
+                        <span class="project-date">
+                            2024–2025
+                        </span>
+
                     </div>
 
-                    <div>
 
-                        <h3>
-                            Learning Buddy
-                        </h3>
+                    <h3>
+                        Automatic Analysis of Marginal Bone Level
+                        Around Dental Implants
+                    </h3>
 
-                        <p class="organization">
-                            AI Tool for Scientific Text Simplification
-                        </p>
+                    <p class="project-organization">
+                        University of Zurich · Center of Dental Medicine
+                    </p>
 
-                        <p>
-                            Developed a generative AI system to simplify
-                            scientific papers for students with ADHD and
-                            evaluated usability through a user study.
-                        </p>
+                    <p>
+                        Built an end-to-end computer vision pipeline for
+                        dental implant analysis using medical imaging.
+                    </p>
 
-                        <div class="tags">
-                            <span>Generative AI</span>
-                            <span>NLP</span>
-                            <span>User Study</span>
-                        </div>
+                    <ul>
+
+                        <li>
+                            Built a YOLO-based object detection pipeline.
+                        </li>
+
+                        <li>
+                            Processed medical images and automated
+                            marginal bone loss measurements.
+                        </li>
+
+                    </ul>
+
+                    <div class="project-tags">
+
+                        <span>Computer Vision</span>
+                        <span>YOLO</span>
+                        <span>Medical Imaging</span>
+                        <span>Python</span>
 
                     </div>
 
                 </article>
 
 
-                <article class="project compact-project">
+                <!-- Project 3 -->
+                <article class="project-card">
 
-                    <div class="project-meta">
-                        2024
+                    <div class="project-top">
+
+                        <span class="project-number">03</span>
+
+                        <span class="project-date">
+                            2024–2025
+                        </span>
+
                     </div>
 
-                    <div>
 
-                        <h3>
-                            Comparative Study of Medical QA Models
-                        </h3>
+                    <h3>
+                        Learning Buddy: AI Tool for Scientific
+                        Text Simplification
+                    </h3>
 
-                        <p>
-                            Evaluated BioBERT, BioGPT, and Medical-Llama3
-                            across accuracy, fluency, readability, and
-                            response time.
-                        </p>
+                    <p>
+                        Developed a generative AI system to simplify
+                        scientific papers for students with ADHD.
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Developed an LLM-based text simplification
+                            system.
+                        </li>
+
+                        <li>
+                            Conducted a user study with 10 participants
+                            evaluating usability and learning experience.
+                        </li>
+
+                    </ul>
+
+                    <div class="project-tags">
+
+                        <span>Generative AI</span>
+                        <span>NLP</span>
+                        <span>LLMs</span>
+                        <span>User Studies</span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Project 4 -->
+                <article class="project-card">
+
+                    <div class="project-top">
+
+                        <span class="project-number">04</span>
+
+                        <span class="project-date">
+                            2024
+                        </span>
+
+                    </div>
+
+
+                    <h3>
+                        Comparative Study of Medical QA Models
+                    </h3>
+
+                    <p>
+                        Evaluated BioBERT, BioGPT, and Medical-Llama3
+                        on a medical question-answering dataset.
+                    </p>
+
+                    <ul>
+
+                        <li>
+                            Designed an evaluation pipeline measuring
+                            accuracy, fluency, readability, and response time.
+                        </li>
+
+                    </ul>
+
+                    <div class="project-tags">
+
+                        <span>BioNLP</span>
+                        <span>Medical AI</span>
+                        <span>LLM Evaluation</span>
 
                     </div>
 
@@ -250,157 +402,208 @@
 
 
         <!-- EXPERIENCE + EDUCATION -->
+        <section class="section">
 
-        <section id="experience">
-
-            <div class="section-title">
-                <span>03</span>
-                Background
-            </div>
+            <div class="two-column-section">
 
 
-            <div class="background-grid">
+                <!-- EXPERIENCE -->
+                <div id="experience">
 
-
-                <div>
-
-                    <h3 class="subheading">
-                        Education
-                    </h3>
-
-
-                    <div class="background-item">
-
-                        <strong>
-                            MSc Data Science
-                        </strong>
-
-                        <p>
-                            University of Zurich · 2023–2026
-                        </p>
-
-                        <small>
-                            Minor in Informatics · Focus on Machine Learning,
-                            AI, and NLP
-                        </small>
-
+                    <div class="section-label">
+                        <span>03</span>
+                        <span>EXPERIENCE</span>
                     </div>
 
 
-                    <div class="background-item">
+                    <div class="compact-timeline">
 
-                        <strong>
-                            BSc Statistics
-                        </strong>
 
-                        <p>
-                            The Chinese University of Hong Kong, Shenzhen
-                            · 2019–2023
-                        </p>
+                        <div class="timeline-item">
 
-                        <small>
-                            Data Science stream · Dean's List Award
-                        </small>
+                            <div class="timeline-date">
+                                2022–2023
+                            </div>
+
+                            <div>
+
+                                <h3>Research Assistant</h3>
+
+                                <p class="organization">
+                                    Cognition and Health Lab
+                                </p>
+
+                                <p class="organization">
+                                    The Chinese University of Hong Kong, Shenzhen
+                                </p>
+
+                                <p>
+                                    Analyzed metascience data focusing on trends
+                                    in psychology and neuroscience research.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-date">
+                                2022
+                            </div>
+
+                            <div>
+
+                                <h3>IT Intern</h3>
+
+                                <p class="organization">
+                                    Shenzhen Century Global Supply Chain Company Limited
+                                </p>
+
+                                <p>
+                                    Managed SQL databases and generated
+                                    financial and customs analytical reports
+                                    using Jaspersoft Studio.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-date">
+                                2022
+                            </div>
+
+                            <div>
+
+                                <h3>Assistant to Account Manager</h3>
+
+                                <p class="organization">
+                                    China Merchants Bank · Wuhan Branch
+                                </p>
+
+                                <p>
+                                    Performed customer segmentation analysis
+                                    and conducted data collection on equity
+                                    financing for technology enterprises.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-date">
+                                2024–2026
+                            </div>
+
+                            <div>
+
+                                <h3>Board Member</h3>
+
+                                <p class="organization">
+                                    PolyUniQue · University of Zurich
+                                </p>
+
+                                <p>
+                                    Organized community events, newsletters,
+                                    and outreach activities while coordinating
+                                    logistics, communication, member engagement,
+                                    and cross-team collaboration.
+                                </p>
+
+                            </div>
+
+                        </div>
 
                     </div>
 
                 </div>
 
 
-                <div>
+                <!-- EDUCATION -->
+                <div id="education">
 
-                    <h3 class="subheading">
-                        Experience
-                    </h3>
-
-
-                    <div class="background-item">
-
-                        <strong>
-                            Research Assistant
-                        </strong>
-
-                        <p>
-                            Cognition and Health Lab · 2022–2023
-                        </p>
-
+                    <div class="section-label">
+                        <span>04</span>
+                        <span>EDUCATION</span>
                     </div>
 
 
-                    <div class="background-item">
+                    <div class="education-list">
 
-                        <strong>
-                            Board Member
-                        </strong>
 
-                        <p>
-                            PolyUniQue, University of Zurich · 2024–2026
-                        </p>
+                        <div class="education-card">
+
+                            <p class="education-date">
+                                2023–2026
+                            </p>
+
+                            <h3>
+                                Master of Science in Data Science
+                            </h3>
+
+                            <p>
+                                University of Zurich
+                            </p>
+
+                            <p class="education-detail">
+                                Minor: Informatics
+                            </p>
+
+                            <p class="education-detail">
+                                Focus: Machine Learning, Artificial Intelligence,
+                                Natural Language Processing
+                            </p>
+
+                        </div>
+
+
+                        <div class="education-card">
+
+                            <p class="education-date">
+                                2019–2023
+                            </p>
+
+                            <h3>
+                                Bachelor of Science in Statistics
+                            </h3>
+
+                            <p>
+                                The Chinese University of Hong Kong, Shenzhen
+                            </p>
+
+                            <p class="education-detail">
+                                Stream: Data Science
+                            </p>
+
+                        </div>
+
+
+                        <div class="education-card award-card">
+
+                            <p class="education-date">
+                                2022–2023
+                            </p>
+
+                            <h3>
+                                School of Data Science Dean's List Award
+                            </h3>
+
+                            <p>
+                                The Chinese University of Hong Kong, Shenzhen
+                            </p>
+
+                        </div>
 
                     </div>
 
-
-                    <div class="background-item">
-
-                        <strong>
-                            IT Intern
-                        </strong>
-
-                        <p>
-                            Shenzhen Century Global Supply Chain · 2022
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- SKILLS -->
-
-        <section class="skills-section">
-
-            <div class="section-title">
-                <span>04</span>
-                Skills
-            </div>
-
-
-            <div class="skills">
-
-                <div>
-                    <strong>AI & ML</strong>
-                    <p>
-                        LLMs · NLP · Computer Vision · Object Detection
-                        · LLM Agent Design
-                    </p>
-                </div>
-
-
-                <div>
-                    <strong>Programming</strong>
-                    <p>
-                        Python · R · SQL · HTML · CSS
-                    </p>
-                </div>
-
-
-                <div>
-                    <strong>Tools</strong>
-                    <p>
-                        Git/GitHub · Jupyter · PostgreSQL · MySQL
-                    </p>
-                </div>
-
-
-                <div>
-                    <strong>Languages</strong>
-                    <p>
-                        Chinese (native) · English (IELTS 8.0) · German (B1)
-                    </p>
                 </div>
 
             </div>
@@ -409,55 +612,66 @@
 
 
         <!-- CONTACT -->
-
-        <section id="contact" class="contact">
+        <section id="contact" class="contact-section">
 
             <p class="eyebrow">
-                GET IN TOUCH
+                HAVE A PROJECT OR OPPORTUNITY?
             </p>
 
             <h2>
-                Interested in AI that
-                <span>helps people?</span>
+                Let's build something
+                <em>useful.</em>
             </h2>
 
-            <a href="mailto:xuan.ji1128@gmail.com"
-               class="email">
-                xuan.ji1128@gmail.com
-            </a>
-
-            <p class="location">
-                Zurich, Switzerland
+            <p>
+                I am currently interested in opportunities involving
+                machine learning, artificial intelligence, NLP,
+                conversational AI, and healthcare technology.
             </p>
 
-        </section>
+            <div class="contact-details">
 
+                <a href="mailto:xuan.ji1128@gmail.com">
+                    xuan.ji1128@gmail.com
+                </a>
+
+                <span>·</span>
+
+                <span>Zurich, Switzerland</span>
+
+            </div>
+
+        </section>
 
     </main>
 
 
+    <!-- FOOTER -->
     <footer>
 
-        <span>© 2026 Xuan Ji</span>
+        <span>
+            © 2026 Xuan Ji
+        </span>
 
-        <div>
+        <div class="footer-links">
 
             <a href="mailto:xuan.ji1128@gmail.com">
                 Email
             </a>
 
-            <a href="https://github.com/">
+            <a href="https://github.com/"
+                target="_blank">
                 GitHub
             </a>
 
-            <a href="https://www.linkedin.com/">
+            <a href="https://www.linkedin.com/"
+                target="_blank">
                 LinkedIn
             </a>
 
         </div>
 
     </footer>
-
 
 </body>
 
